@@ -67,7 +67,7 @@ public class App {
         IMyList<IValue> out4 = new MyList<IValue>();         
         IMyMap<String, BufferedReader> fileTable4 = new MyMap<String, BufferedReader>();
         //                                                          here    
-        IStmt fileEx = new CompStmt(new VarDeclStmt("varf", new IntType()),new CompStmt(new AssignStmt("varf",new ValueExpr(new StringValue("test.in"))),
+        IStmt fileEx = new CompStmt(new VarDeclStmt("varf", new StringType()),new CompStmt(new AssignStmt("varf",new ValueExpr(new StringValue("test.in"))),
         new CompStmt(new OpenRFileStmt(new VariableExpr("varf")),new CompStmt(new VarDeclStmt("varc",new IntType()), new CompStmt(new ReadFileStmt(new VariableExpr("varf"), "varc"),
         new CompStmt(new PrintStmt(new VariableExpr("varc")),
         new CompStmt(new ReadFileStmt(new VariableExpr("varf"), "varc"), new CompStmt(new PrintStmt(new VariableExpr("varc")), 

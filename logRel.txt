@@ -1,0 +1,44 @@
+ExeStack contains: 
+boolean n;
+n = 3 EQUAL 4;
+
+*************
+SymTable contains: 
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+-----------------
+
+ExeStack contains: 
+n = 3 EQUAL 4;
+
+*************
+SymTable contains: 
+n -> false
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+-----------------
+
+ExeStack contains: 
+
+*************
+SymTable contains: 
+n -> false
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+-----------------
+

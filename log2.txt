@@ -1,0 +1,329 @@
+Current prg: 2
+
+
+ExeStack contains: 
+int a;
+int b;
+a = 2 + 3 * 5;
+b = a + 1;
+print(b);
+
+*************
+SymTable contains: 
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 2
+
+
+ExeStack contains: 
+int b;
+a = 2 + 3 * 5;
+b = a + 1;
+print(b);
+
+*************
+SymTable contains: 
+a -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 2
+
+
+ExeStack contains: 
+a = 2 + 3 * 5;
+b = a + 1;
+print(b);
+
+*************
+SymTable contains: 
+a -> 0
+b -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 2
+
+
+ExeStack contains: 
+b = a + 1;
+print(b);
+
+*************
+SymTable contains: 
+a -> 17
+b -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 2
+
+
+ExeStack contains: 
+int a;
+int b;
+a = 2 + 3 * 5;
+b = a + 1;
+print(b);
+
+*************
+SymTable contains: 
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 2
+
+
+ExeStack contains: 
+int a;
+int b;
+a = 2 + 3 * 5;
+b = a + 1;
+print(b);
+
+*************
+SymTable contains: 
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 2
+
+
+ExeStack contains: 
+int b;
+a = 2 + 3 * 5;
+b = a + 1;
+print(b);
+
+*************
+SymTable contains: 
+a -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 2
+
+
+ExeStack contains: 
+int b;
+a = 2 + 3 * 5;
+b = a + 1;
+print(b);
+
+*************
+SymTable contains: 
+a -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 2
+
+
+ExeStack contains: 
+a = 2 + 3 * 5;
+b = a + 1;
+print(b);
+
+*************
+SymTable contains: 
+a -> 0
+b -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 2
+
+
+ExeStack contains: 
+a = 2 + 3 * 5;
+b = a + 1;
+print(b);
+
+*************
+SymTable contains: 
+a -> 0
+b -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 2
+
+
+ExeStack contains: 
+b = a + 1;
+print(b);
+
+*************
+SymTable contains: 
+a -> 17
+b -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 2
+
+
+ExeStack contains: 
+b = a + 1;
+print(b);
+
+*************
+SymTable contains: 
+a -> 17
+b -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 2
+
+
+ExeStack contains: 
+print(b);
+
+*************
+SymTable contains: 
+a -> 17
+b -> 18
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 2
+
+
+ExeStack contains: 
+
+*************
+SymTable contains: 
+a -> 17
+b -> 18
+
+*************
+Out contains: 
+18
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+

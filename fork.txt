@@ -1,0 +1,250 @@
+Current prg: 1
+
+
+ExeStack contains: 
+int v;
+Ref(int) a;
+v = 10;
+allocate(a, 22);
+Fork(writeHeap(a, 30);
+v = 32;
+print(v);
+print(readHeap(a));
+);
+print(v);
+print(readHeap(a));
+
+*************
+SymTable contains: 
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 1
+
+
+ExeStack contains: 
+Ref(int) a;
+v = 10;
+allocate(a, 22);
+Fork(writeHeap(a, 30);
+v = 32;
+print(v);
+print(readHeap(a));
+);
+print(v);
+print(readHeap(a));
+
+*************
+SymTable contains: 
+v -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 1
+
+
+ExeStack contains: 
+v = 10;
+allocate(a, 22);
+Fork(writeHeap(a, 30);
+v = 32;
+print(v);
+print(readHeap(a));
+);
+print(v);
+print(readHeap(a));
+
+*************
+SymTable contains: 
+a -> (1, int)
+v -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 1
+
+
+ExeStack contains: 
+allocate(a, 22);
+Fork(writeHeap(a, 30);
+v = 32;
+print(v);
+print(readHeap(a));
+);
+print(v);
+print(readHeap(a));
+
+*************
+SymTable contains: 
+a -> (1, int)
+v -> 10
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 1
+
+
+ExeStack contains: 
+Fork(writeHeap(a, 30);
+v = 32;
+print(v);
+print(readHeap(a));
+);
+print(v);
+print(readHeap(a));
+
+*************
+SymTable contains: 
+a -> (1, int)
+v -> 10
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+1 -> 22
+
+-----------------
+
+Current prg: 1
+
+
+ExeStack contains: 
+print(v);
+print(readHeap(a));
+
+*************
+SymTable contains: 
+a -> (1, int)
+v -> 10
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+1 -> 22
+
+-----------------
+
+Current prg: 4
+
+
+ExeStack contains: 
+writeHeap(a, 30);
+v = 32;
+print(v);
+print(readHeap(a));
+
+*************
+SymTable contains: 
+a -> (1, int)
+v -> 10
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+1 -> 22
+
+-----------------
+
+Current prg: 4
+
+
+ExeStack contains: 
+v = 32;
+print(v);
+print(readHeap(a));
+
+*************
+SymTable contains: 
+a -> (1, int)
+v -> 10
+
+*************
+Out contains: 
+10
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+1 -> 30
+
+-----------------
+
+Current prg: 4
+
+
+ExeStack contains: 
+print(v);
+print(readHeap(a));
+
+*************
+SymTable contains: 
+a -> (1, int)
+v -> 32
+
+*************
+Out contains: 
+10
+30
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+1 -> 30
+
+-----------------
+

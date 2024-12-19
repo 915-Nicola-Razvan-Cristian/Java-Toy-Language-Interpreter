@@ -1,0 +1,305 @@
+Current prg: 3
+
+
+ExeStack contains: 
+boolean a;
+int v;
+a = true;
+IF(a)
+ THEN {
+	v = 2;
+ }
+ ELSE {
+	v = 3;
+ }
+print(v);
+
+*************
+SymTable contains: 
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 3
+
+
+ExeStack contains: 
+boolean a;
+int v;
+a = true;
+IF(a)
+ THEN {
+	v = 2;
+ }
+ ELSE {
+	v = 3;
+ }
+print(v);
+
+*************
+SymTable contains: 
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 3
+
+
+ExeStack contains: 
+int v;
+a = true;
+IF(a)
+ THEN {
+	v = 2;
+ }
+ ELSE {
+	v = 3;
+ }
+print(v);
+
+*************
+SymTable contains: 
+a -> false
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 3
+
+
+ExeStack contains: 
+int v;
+a = true;
+IF(a)
+ THEN {
+	v = 2;
+ }
+ ELSE {
+	v = 3;
+ }
+print(v);
+
+*************
+SymTable contains: 
+a -> false
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 3
+
+
+ExeStack contains: 
+a = true;
+IF(a)
+ THEN {
+	v = 2;
+ }
+ ELSE {
+	v = 3;
+ }
+print(v);
+
+*************
+SymTable contains: 
+a -> false
+v -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 3
+
+
+ExeStack contains: 
+a = true;
+IF(a)
+ THEN {
+	v = 2;
+ }
+ ELSE {
+	v = 3;
+ }
+print(v);
+
+*************
+SymTable contains: 
+a -> false
+v -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 3
+
+
+ExeStack contains: 
+IF(a)
+ THEN {
+	v = 2;
+ }
+ ELSE {
+	v = 3;
+ }
+print(v);
+
+*************
+SymTable contains: 
+a -> true
+v -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 3
+
+
+ExeStack contains: 
+IF(a)
+ THEN {
+	v = 2;
+ }
+ ELSE {
+	v = 3;
+ }
+print(v);
+
+*************
+SymTable contains: 
+a -> true
+v -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 3
+
+
+ExeStack contains: 
+v = 2;
+print(v);
+
+*************
+SymTable contains: 
+a -> true
+v -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 3
+
+
+ExeStack contains: 
+print(v);
+
+*************
+SymTable contains: 
+a -> true
+v -> 2
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 3
+
+
+ExeStack contains: 
+
+*************
+SymTable contains: 
+a -> true
+v -> 2
+
+*************
+Out contains: 
+2
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+

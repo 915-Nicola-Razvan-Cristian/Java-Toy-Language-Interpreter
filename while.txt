@@ -1,0 +1,450 @@
+Current prg: 10
+
+
+ExeStack contains: 
+int v;
+v = 4;
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+v = 4;
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 4
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+print(v);
+v = v - 1;
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 4
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+v = v - 1;
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 4
+
+*************
+Out contains: 
+4
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 3
+
+*************
+Out contains: 
+4
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+print(v);
+v = v - 1;
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 3
+
+*************
+Out contains: 
+4
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+v = v - 1;
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 3
+
+*************
+Out contains: 
+4
+3
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 2
+
+*************
+Out contains: 
+4
+3
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+print(v);
+v = v - 1;
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 2
+
+*************
+Out contains: 
+4
+3
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+v = v - 1;
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 2
+
+*************
+Out contains: 
+4
+3
+2
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 1
+
+*************
+Out contains: 
+4
+3
+2
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+print(v);
+v = v - 1;
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 1
+
+*************
+Out contains: 
+4
+3
+2
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+v = v - 1;
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 1
+
+*************
+Out contains: 
+4
+3
+2
+1
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+While(v GREATER_THAN 0) DO print(v);
+v = v - 1;
+
+print(v);
+
+*************
+SymTable contains: 
+v -> 0
+
+*************
+Out contains: 
+4
+3
+2
+1
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+print(v);
+
+*************
+SymTable contains: 
+v -> 0
+
+*************
+Out contains: 
+4
+3
+2
+1
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 10
+
+
+ExeStack contains: 
+
+*************
+SymTable contains: 
+v -> 0
+
+*************
+Out contains: 
+4
+3
+2
+1
+0
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+

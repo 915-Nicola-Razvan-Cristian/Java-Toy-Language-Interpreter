@@ -1,0 +1,131 @@
+
+Current prg: 1
+
+
+ExeStack contains: 
+int v;
+v = 2;
+print(v);
+
+*************
+SymTable contains: 
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 1
+
+
+ExeStack contains: 
+int v;
+v = 2;
+print(v);
+
+*************
+SymTable contains: 
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 1
+
+
+ExeStack contains: 
+v = 2;
+print(v);
+
+*************
+SymTable contains: 
+v -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 1
+
+
+ExeStack contains: 
+v = 2;
+print(v);
+
+*************
+SymTable contains: 
+v -> 0
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 1
+
+
+ExeStack contains: 
+print(v);
+
+*************
+SymTable contains: 
+v -> 2
+
+*************
+Out contains: 
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
+Current prg: 1
+
+
+ExeStack contains: 
+
+*************
+SymTable contains: 
+v -> 2
+
+*************
+Out contains: 
+2
+
+*************
+FileTable contains: 
+
+*************
+Heap contains:
+
+-----------------
+
